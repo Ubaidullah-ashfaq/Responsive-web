@@ -1,0 +1,545 @@
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#c6d8cc;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    padding: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #e9d8a6;
+}
+.header-logo {
+    width: 80%;
+
+}
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-between;
+}
+header li {
+    flex-basis: 48%;
+    margin-bottom: 8px;
+}
+header li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+header li:first-child a {
+    background-color: transparent;
+}
+header a {
+    text-decoration: none;
+    font-size:19px;
+    color: white;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    background-color: #9b2226;
+    border-radius: 0.3rem;
+}
+header a:hover {
+    background-color: black;
+    color: #ee9800;
+}
+
+
+.box1{
+    background-color:#ca6702;
+}
+.box1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.box2 {
+    margin-bottom:48px;
+    padding-left: 8%;
+}
+.box2-text {
+    display: block;
+    line-height: 1.6;
+  
+    
+}
+.box2-img1 {
+    max-height: 120px;
+    display: block;
+
+}
+.box2 h1 {
+    font-size:38px;
+    padding-left:3%;
+    padding-top: 1%;
+}
+.box2 p {
+    padding-bottom: 6%;
+    padding-left: 2%;
+    font-weight: medium;
+}
+
+.box3-body {
+    width: 100%;
+    background-color:#005f73
+}
+
+.box3 {
+    color: rgb(1, 1, 1);
+}
+.box3 li {
+    padding-bottom: 4%;
+}
+
+.box3 h1 {
+    font-size:38px;
+    padding-left: 6%;
+    padding-top: 3%;
+    color: white;
+}
+.box3 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.box3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.box3 figure {
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+    max-width: 400px;
+    overflow: hidden;
+    position: relative;
+    border: 0.5rem solid;
+    border-width: 0.5rem;
+    border-radius: 5px;
+   
+}
+
+
+.box3 figure img {
+    margin-bottom: -4px;
+    width: 100%;
+    overflow: hidden;
+    object-fit:cover;
+   
+}
+
+.box3 figcaption {
+    background-color: rgba(233, 231, 231, 0.6);
+    font-size:30px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top:-10%;
+    padding: 0;
+    text-align: center;
+   
+}
+.box3 figcaption a{
+    text-decoration: none;
+    color: black;
+}
+.box3 figcaption a:hover {
+    color: #ca6702;
+    text-decoration: underline;
+}
+
+
+.box4 h1 {
+    font-size:2.5rem;
+    padding-left:5%;
+    padding-top: 3%;
+}
+.box4 img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border: 8px solid #9b2226;
+}
+
+
+.box5 h1 {
+    font-size:2.5rem;
+}
+.box5 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10%;
+}
+.box5 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.box5 figure {
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+    max-width: 400px;
+    overflow: hidden;
+    position: relative;
+    border-width: 10px;
+    border-radius: 5px;
+   
+}
+.box5-picture1 {
+    border-color:#ca6702;
+    border-style: solid;
+}
+.box5-picture2 {
+    border-color:#005f73 ;
+    border-style: solid;
+}
+.box5-picture3 {
+    border-color:#ee9800 ;
+    border-style: solid;
+}
+.box5-picture4 {
+    border-color:aqua;
+    border-style: solid;
+   
+}
+.box5-picture5 {
+    border-color:lightgreen;
+    border-style: solid;
+}
+.box5-picture6 {
+    border-color:#005f73;
+    border-style: solid;
+}
+.box5 figure img {
+    margin-bottom: -4px;
+    width: 100%;
+    overflow: hidden;
+    object-fit:cover;
+    object-position: 0 -40px;
+   
+}
+
+.box5 figcaption {
+    background-color: rgba(233, 231, 231, 0.6);
+    font-size:30px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top:-10%;
+    padding: 0;
+    text-align: center;
+
+}
+.box5 figcaption a{
+    text-decoration: none;
+    color: black;
+}
+.box5 figcaption a:hover {
+    color: #ca6702;
+    text-decoration: underline;
+}
+
+
+.footer {
+    background-color:#e9d8a6;
+}
+footer {
+    padding: 48px;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+footer h4 {
+    margin-top: 0;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+footer li {
+    margin-right: 16px;
+}
+footer address {
+    font-style: normal;
+    margin-top: 32px;
+    font-weight: bold;
+}
+
+
+
+@media (min-width: 550px )
+
+
+ {
+    header {
+        padding: 48px;
+    }
+    header ul {
+        justify-content: center;
+        gap: 19px;
+
+    }
+    header li {
+        flex-basis: auto;
+        margin-bottom: 0;
+    }
+    header a {
+        color: black;
+        background-color: transparent;
+        padding: 0;
+    }
+    header a:hover {
+       background-color: transparent;
+       color:#9b2226;
+    }
+
+.box1{
+    background-color:#ca6702;
+}
+.box1 img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+ .box2 {
+    margin-bottom:48px;
+    padding-left: 0.1%;
+ }
+ .box2 h1 {
+    font-size:40px;
+    padding-left:8%;
+    padding-top: 1%; 
+ }
+
+ .box2-text {
+    display: flow-root;
+    max-width: 900px;
+}
+.box2-img1 {
+    float: left;
+    max-height: 13.2rem;
+    shape-outside: polygon(35.84% 94.87%, 34.64% 87.05%, 51.64% 4.06%, 55.1% 2.38%);
+}
+
+ .box3 ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+ 
+.box3 li {
+    flex-basis: 49.5%;
+    width: 100%;
+}
+
+.box3 figure img {
+    object-position: 0;
+}
+
+.box3 figure {
+    max-width: 100%;
+}
+.box3 li:last-child {
+    flex-basis: 98%;
+}
+
+.box4 h1 {
+    font-size:40px;
+    padding-left:6%;
+    padding-top: 3%;
+}
+.box4 img {
+    display: block;
+    margin: 0 auto;
+    border: 8px solid  #9b2226 ;
+    width: 90%;
+}
+
+
+.box5 h1 {
+    font-size:40px;
+    padding-left:5%;
+    padding-top: 3%;
+}
+
+
+.box5 ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.box5 ul {
+    padding-bottom: 5%;
+}
+ 
+.box5 li {
+    flex-basis: 49.5%;
+    width: 100%;
+}
+
+.box5 figure img {
+    object-position: 0;
+}
+
+.box5 figure {
+    max-width: 100%;
+}
+
+  section ul,
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+  section li,
+.social,
+address {
+    flex-basis: 49.5%;
+}
+
+
+
+}
+
+
+
+ @media (min-width: 800px ) 
+ {
+
+ 
+
+    header ul {
+        justify-content: flex-end;
+        flex-flow: row ;
+
+    }
+    header li:first-child {
+        flex-basis: auto;
+        margin: 0 auto;
+        order: 2;
+    }
+    header li:nth-child(2),
+    header li:nth-child(3) {
+        order: 1;
+    }
+    header li:nth-child(4),
+    header li:nth-child(5) {
+        order: 3;
+    }
+
+
+ .box1 {
+    background-color:#ca6702;
+}
+.box1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.box2 {
+    margin-bottom:48px;
+    padding-left: 10%;
+ }
+ .box2 h1 {
+    font-size:48px;
+    padding-left:2%;
+    padding-top: 1%; 
+ }
+
+.box3 h1 {
+    font-size: 48px;
+    padding-left: 0%;
+}
+
+.box3 ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+ 
+.box3 figure img {
+    object-position: 0;
+}
+
+.box3 figure {
+    max-width: 100%;
+}
+.box3 li:first-child {
+    flex-basis: 32.5%;
+}
+
+.box3 li:nth-child(2),
+.box3 li:nth-child(3) {
+    flex-basis: 32.5%;
+}
+
+
+.box4 h1 {
+    font-size:48px;
+    padding-left:12%;
+    padding-top: 3%;
+}
+.box4 img {
+    display: block;
+    margin: 0 auto;
+    border: 8px solid  #9b2226;
+    width: 77%;
+}
+
+
+
+
+
+
+
+
+.box5 h1 {
+    font-size: 48px;
+    padding-left: 0;
+}
+
+.box5 li {
+    flex-basis: 32.5%;
+}
+.box5 ul {
+    padding-bottom: 5%;
+}
+
+
+address {
+    flex-basis: 65.5%;
+}
+.social {
+    flex-basis: 32.5%;
+}
+
+
+}
